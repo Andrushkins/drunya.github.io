@@ -18,15 +18,15 @@ $(document).ready(function(){
 
   $(".answer_1_f,.answer_2_f").click(function(){
     if(parseFloat($("#mat").text()) <= 7){
-    	$("#resoult_img").css({"background":"url('../ikt_test/bad.png')"});
+    	$("#resoult_img").css({"background":"url('bad.png')"});
         $("#q_box").css({"height":"750px"});
     }
     if(parseFloat($("#mat").text()) > 7 && parseFloat($("#mat").text()) <= 12){
-    	$("#resoult_img").css({"background":"url('../ikt_test/norm.png')"});
+    	$("#resoult_img").css({"background":"url('norm.png')"});
         $("#q_box").css({"height":"750px"});
     }
     if(parseFloat($("#mat").text()) > 12){
-    	$("#resoult_img").css({"background":"url('../ikt_test/krasava.png')"});
+    	$("#resoult_img").css({"background":"url('krasava.png')"});
         $("#q_box").css({"height":"750px"});
     }
     var mat = $("#mat").text() + "/15";
