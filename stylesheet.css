@@ -1,0 +1,112 @@
+@font-face {
+  font-family: P22;
+  src: url(../ikt/P22UndergroundCYPro-Book.otf);
+  font-weight: normal;
+  font-style: normal;
+}
+body {
+  background: url(background.png);
+}
+#main{
+  margin-top: -80px;
+  width:600px;
+  position:absolute;
+  left:calc(50% - 300px);
+  height:618px;
+}
+#top {
+  width:600px;
+  position:absolute;
+  left:calc(50% - 300px);
+}
+p {
+  position:absolute;
+}
+#text1{
+  font-family: P22;
+  font-size: 28px;
+  line-height: 35px;
+  font-weight: normal;
+  width:600px;
+  text-align: center;
+}
+#text2{
+  font-family: P22;
+  font-size: 16px;
+  width:400px;
+  top:80px;
+}
+#q_box{
+  overflow:hidden;
+  width:600px;
+  top:250px;
+}
+#q{
+  width:9600px;
+  height:568px;
+  margin-top:250px;
+  position:relative;
+}
+.q_text{
+  color:white;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  position:absolute;
+  margin-left:15px;
+  margin-top:-174px;
+}
+.q_text1 {
+  color:white;
+  font-family: P22;
+  font-size: 25px;
+  position:absolute;
+  margin-left:35px;
+  margin-top:-180px;
+  width: 500px;
+  opacity: 0.9;
+}
+.q_box{
+  position:relative;
+}
+div[class^="answer"]{
+  width:600px;
+  border-bottom: 1px solid black;
+  height:45px;
+  cursor:pointer;
+}
+div[class^="answer"]:hover{
+  background:#E9E9E9;
+  opacity: 0.7;
+}
+div[class^="answer_1"]{
+  margin-top:184px;
+}
+.answer_text{
+  color:black;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
+  margin-top: 8px;
+}
+#reloult_text{
+  width:600px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 28px;
+  color:white;
+  text-align:center;
+  margin-top:-200px;
+  opacity: 0.9;
+}
+#resoult_img{
+  width:512px;
+  height:512px;
+  margin-top:40px;
+  margin-left:44px;
+}
+#mat{
+  color:black;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 25px;
+  width:600px;
+  text-align:center;
+  margin-top:-45px;
+}
